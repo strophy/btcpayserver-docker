@@ -4,7 +4,7 @@ services:
   mariadb:
     image: 'bitnami/mariadb:10.2'
     environment:
-      - ALLOW_EMPTY_PASSWORD=no
+      - ALLOW_EMPTY_PASSWORD=yes
       - MARIADB_USER=bn_magento
       - MARIADB_PASSWORD=XH9lP13B9Yz
       - MARIADB_DATABASE=bitnami_magento
